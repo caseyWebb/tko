@@ -51,10 +51,19 @@ th {
   border-bottom: 1px solid black;
 }
 
+.btn-red{
+  background-color: #d24634;
+  color:white;
+}
+.btn-red:hover{
+  color:white;
+  background-color: #ac2f1f;
+}
+
 
 /* Codepen iFrames */
 iframe {
-  padding: 0px 1em;
+  padding: 0px;
 }
 
 
@@ -77,6 +86,8 @@ iframe {
 
   background-color: #931d0d;
   font-family: Pacifico;
+
+  box-shadow: 1px 1px 3px #000000ad;
 }
 
 .top-bar a {
@@ -121,9 +132,7 @@ iframe {
   bottom: 0;
   z-index: 1000;
   padding: 0;
-  background-color: #efebe9;
-  border-right: 1px solid #efebe9;
-
+  background-color: #2b2b2b;
   padding: 4px 0.75em;
 }
 
@@ -133,14 +142,13 @@ iframe {
 
 .sidebar a {
   padding: 1ex 0.25rem;
-  color: #931d0d;
+  color: #a5a5a5;
   border-radius: 4px;
+  transition: .4s;
 }
 
 .sidebar a:hover {
-  color: black;
-  background-color: #FFaFaFB0;
-  transition: 0.4s background-color ease-in-out;
+  color: #fff;
 }
 
 .sidebar .section {
@@ -161,7 +169,7 @@ iframe {
 .sidebar .in-viewport::after {
   position: absolute;
   right: -22px;
-  background-color: #8F3F4F90;
+  background-color: #8F3F4F;
   width: 20px;
   height: 20px;
   border-radius: 12px;
@@ -175,9 +183,9 @@ iframe {
 main {
   grid-area: main;
   height: calc(100vh - 75px);
-  background-color: #fcd4d4;
-  padding: 16px;
-  overflow: scroll;
+  padding: 60px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 h2, h3, h4 {
@@ -185,9 +193,6 @@ h2, h3, h4 {
   margin-bottom: 0.6em;
 }
 
-h2 {
-  font-weight: 800;
-}
 
 h3, h4, h2 time {
   font-weight: 400;
@@ -254,18 +259,17 @@ pre code {
 /**
  *         Source linking
  */
-.source {
+ .source {
   display: block;
-  text-align: right;
-  font-size: 0.9rem;
-  position: sticky;
-  top: 0px;
+  font-size: 1rem;
+  margin-bottom: 25px;
 }
 
 .source a {
-  padding: 2px 0.62em;
-  background-color: #E8D8D8;
-  border: 1px solid gray;
+  padding: 10px 10px 10px 0;
+  color: #931d0d;
+  border-bottom: none;
+  font-size: 1.3em;
 }
 
 /**

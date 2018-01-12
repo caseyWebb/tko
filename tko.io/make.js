@@ -82,8 +82,8 @@ function make () {
   /**
    * Make Legacy Javascript
    */
-  // console.log('Making build/tko-io.js')
-  // fs.copySync('src/tko-io.js', 'build/tko-io.js')
+  console.log('Making build/tko-io.js')
+  fs.copySync('src/tko-io.js', 'build/tko-io.js')
 }
 
 if (argv.includes('-w')) {
