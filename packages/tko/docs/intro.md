@@ -1,8 +1,3 @@
-
-<div class='alert alert-danger text-center'>
-	<h5>This webpage is a work in progress.</h5>
-</div>
-
 # What is TKO?
 
 TKO is a Javascript web framework, and the foundation for Knockout 4.
@@ -26,7 +21,7 @@ TKO has a comprehensive suite of tests that ensure its correct functioning and a
 
 Support Knockout:
 
-<a class='btn btn-primary btn-lg btn-block' href='https://patreon.com/brianmhunt'>
+<a class='btn btn-red btn-lg btn-block' href='https://patreon.com/brianmhunt'>
 	via Patreon to Brian M Hunt
 </a>
 
